@@ -1,5 +1,17 @@
 [
     {
+        "name": "ZeroNic WeanPen",
+        "description": "Designed an autoregulating vape pen for quitting nicotine, led UX research with 5 vapers and conducted 10+ usability tests. Created a smart device that incrementally reduces nicotine output based on user comfort level and quitting timeline, paired with a mobile app providing real-time diagnostics and usage insights. The project focused on making nicotine reduction gradual and personalized through technology and behavioral support.",
+        "link": "https://medium.com/human-computer-interaction-at-santa-clara/zeronic-weanpen-the-autoregulating-nicotine-quitting-device-58a8f6261021",
+        "image": "data/images/zeronic.png"
+    },
+    {
+        "name": "Google Calendar Wrapped",
+        "description": "Programmed a data visualization tool similar to Spotify Wrapped's data breakdown for Google Calendar data. Built a web application that analyzes users' calendar data to provide insights into their scheduling patterns, time management, and productivity trends. Users can upload their Google Calendar export data to receive personalized analytics and visualizations about their calendar usage.",
+        "link": "https://luke-ponssen.github.io/gcal-wrapped/",
+        "image": "data/images/gcal-wrapped.png"
+    },
+    {
         "name": "Inrix Hackathon - 1st Place",
         "description": "INRIX Hack is an annual school-wide competition with over 304 participants and 43 teams in 2023. My team constructed a web service that compares commercial real estate listings based on their relative price (per sqft/month) and relative traffic to that address using INRIX's data on trip endpoints. We learned about calling APIs (INRIX API, Google Maps API, Geocoding APIs), using web scrapers to find estate listing prices, and using Vue.js for the front end and Node.js for the backend.",
         "link": "https://devpost.com/software/capital-insights",

@@ -1,20 +1,20 @@
 [
     {
-        "company": "INRIX",
+        "company": "Mirror (W25)",
         "role": "Software Engineering Intern",
-        "description": "Worked on the INRIX Hackathon project that won 1st place in the school-wide competition. Developed a web service that compares commercial real estate listings based on their relative price and traffic data using INRIX's API. Collaborated with a team to implement web scraping, API integration, and full-stack development using Vue.js and Node.js.",
-        "link": "https://www.inrix.com"
+        "description": "Built digital clones by orchestrating 3 Mastra agents equipped with 12 Composio tools and Exa via MCP for search capabilities. Safeguarded 20GB of anonymized user data with Stripe for payments, OAuth, and AES-256-GCM encryption. Powered ZeroEntropy semantic search with vector database of 200,000+ Google, Atlassian, and Slack embeddings. Shipped in 1 week a full-stack Electron app using React, Node.js, Supabase, and Fly.io that scaled to 100+ users on launch day.",
+        "link": "https://www.usemirror.ai"
     },
     {
-        "company": "Santa Clara University",
-        "role": "Research Assistant",
-        "description": "Led research projects in machine learning and data science, including misinformation detection AI and bellwether classification models. Collaborated with faculty members and other students to conduct data analysis, develop machine learning models, and present findings to academic and industry audiences.",
-        "link": "https://www.scu.edu"
+        "company": "BillionToOne",
+        "role": "Software Engineering Intern",
+        "description": "Developed a customized AI assistant chatbot by streamlining OpenAI API calls to Slack Bolt App API endpoints. Designed 6 custom features and 100+ use cases for Quality Assurance, Bioinformatics, and People Ops teams. Reduced AI assistant response time by 61.3% and added multimodal support for 12 file types with LlamaParse API. Streamlined deployment, enhanced scalability, and increased containerization with Docker, Terraform, and AWS.",
+        "link": "https://billiontoone.com"
     },
     {
-        "company": "Matterport",
-        "role": "VR/AR Development Intern",
-        "description": "Collaborated with Dr. Lukoff and senior design team to create digital twin technology for university dorms using virtual reality. Implemented Matterport SDK with Javascript to develop 3D virtual tours. Presented project to Matterport Executive Board and established relationship between Matterport and SCU.",
-        "link": "https://www.matterport.com"
+        "company": "AIMS Team",
+        "role": "Full-Stack Engineering Intern",
+        "description": "Completed 300+ hours of experience engineering full-stack solutions for mobile and web applications for 20 water and wastewater districts. Manipulated 2TB of data from clients in SQL and connected it to web applications using C#, JavaScript, HTML, and ASP.NET. Engineered 3 mobile apps for clients using ArcGIS Online and REST API Service to automate data updates and queries.",
+        "link": "https://aimsteam.com"
     }
 ] 

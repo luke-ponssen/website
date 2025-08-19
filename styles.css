@@ -219,6 +219,7 @@ main {
     padding: 25px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background: #fff;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     border: 1px solid #e9ecef;
@@ -266,6 +267,32 @@ main {
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;
+}
+
+/* Company Logo Styling */
+.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 120px;
+}
+
+.logo-image {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #e9ecef;
+}
+
+.card-text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* Mobile Responsive */

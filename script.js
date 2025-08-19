@@ -126,14 +126,32 @@ function createProjectCard(project) {
     `;
 }
 
+// Company logo mapping - using local images or placeholders
+const companyLogos = {
+    'Mirror (W25)': 'data/images/mirror-logo.png',
+    'BillionToOne': 'data/images/bto-logo.png',
+    'AIMS Team': 'data/images/aims-logo.png',
+};
+
+// Function to get company logo
+function getCompanyLogo(companyName) {
+    return companyLogos[companyName] || 'https://via.placeholder.com/200x200/e9ecef/6c757d?text=' + encodeURIComponent(companyName);
+}
+
 // Function to create internship cards
 function createInternshipCard(internship) {
+    const logoUrl = getCompanyLogo(internship.company);
     return `
         <div class="card" onclick="this.classList.toggle('flipped')">
             <div class="card-inner">
                 <div class="card-front">
-                    <h3>${internship.role}</h3>
-                    <p><strong>${internship.company}</strong></p>
+                    <div class="company-logo">
+                        <img src="${logoUrl}" alt="${internship.company} logo" class="logo-image" onerror="this.src='https://via.placeholder.com/200x200/e9ecef/6c757d?text=${encodeURIComponent(internship.company)}'">
+                    </div>
+                    <div class="card-text-content">
+                        <h3>${internship.role}</h3>
+                        <p><strong>${internship.company}</strong></p>
+                    </div>
                 </div>
                 <div class="card-back">
                     <p>${internship.description}</p>
