@@ -1,0 +1,20 @@
+[
+    {
+        "name": "E-commerce Platform",
+        "description": "A full-stack e-commerce platform built with React and Node.js, featuring user authentication, payment processing, and admin dashboard.",
+        "link": "https://github.com/username/ecommerce-platform",
+        "image": "https://via.placeholder.com/400x200/3498db/ffffff?text=E-commerce+Platform"
+    },
+    {
+        "name": "Weather App",
+        "description": "A responsive weather application that displays current weather and forecasts using OpenWeatherMap API.",
+        "link": "https://github.com/username/weather-app",
+        "image": "https://via.placeholder.com/400x200/2ecc71/ffffff?text=Weather+App"
+    },
+    {
+        "name": "Task Manager",
+        "description": "A collaborative task management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
+        "link": "https://github.com/username/task-manager",
+        "image": "https://via.placeholder.com/400x200/e74c3c/ffffff?text=Task+Manager"
+    }
+] 

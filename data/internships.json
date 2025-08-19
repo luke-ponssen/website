@@ -1,0 +1,20 @@
+[
+    {
+        "company": "Tech Corp",
+        "role": "Software Engineering Intern",
+        "description": "Developed and maintained web applications using React and Python. Collaborated with cross-functional teams to implement new features and improve user experience.",
+        "link": "https://techcorp.com"
+    },
+    {
+        "company": "StartupXYZ",
+        "role": "Frontend Developer Intern",
+        "description": "Built responsive user interfaces and optimized application performance. Worked on mobile-first design principles and accessibility improvements.",
+        "link": "https://startupxyz.com"
+    },
+    {
+        "company": "Data Solutions Inc",
+        "role": "Data Science Intern",
+        "description": "Analyzed large datasets using Python and SQL. Created predictive models and data visualizations to support business decisions.",
+        "link": "https://datasolutions.com"
+    }
+] 

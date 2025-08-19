@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Machine Learning in Healthcare",
+        "summary": "Research on implementing machine learning algorithms for early disease detection and patient outcome prediction in healthcare systems.",
+        "link": "https://arxiv.org/abs/example123",
+        "image": "https://via.placeholder.com/400x200/9b59b6/ffffff?text=ML+Healthcare"
+    },
+    {
+        "title": "Blockchain for Supply Chain",
+        "summary": "Investigation of blockchain technology applications in supply chain management for improved transparency and traceability.",
+        "link": "https://ieeexplore.ieee.org/document/example456",
+        "image": "https://via.placeholder.com/400x200/f39c12/ffffff?text=Blockchain+SC"
+    },
+    {
+        "title": "Renewable Energy Optimization",
+        "summary": "Study on optimization algorithms for renewable energy grid integration and energy storage systems.",
+        "link": "https://www.sciencedirect.com/science/article/example789",
+        "image": "https://via.placeholder.com/400x200/1abc9c/ffffff?text=Renewable+Energy"
+    }
+] 
