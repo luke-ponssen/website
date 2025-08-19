@@ -1,20 +1,20 @@
 [
     {
-        "company": "Tech Corp",
+        "company": "INRIX",
         "role": "Software Engineering Intern",
-        "description": "Developed and maintained web applications using React and Python. Collaborated with cross-functional teams to implement new features and improve user experience.",
-        "link": "https://techcorp.com"
+        "description": "Worked on the INRIX Hackathon project that won 1st place in the school-wide competition. Developed a web service that compares commercial real estate listings based on their relative price and traffic data using INRIX's API. Collaborated with a team to implement web scraping, API integration, and full-stack development using Vue.js and Node.js.",
+        "link": "https://www.inrix.com"
     },
     {
-        "company": "StartupXYZ",
-        "role": "Frontend Developer Intern",
-        "description": "Built responsive user interfaces and optimized application performance. Worked on mobile-first design principles and accessibility improvements.",
-        "link": "https://startupxyz.com"
+        "company": "Santa Clara University",
+        "role": "Research Assistant",
+        "description": "Led research projects in machine learning and data science, including misinformation detection AI and bellwether classification models. Collaborated with faculty members and other students to conduct data analysis, develop machine learning models, and present findings to academic and industry audiences.",
+        "link": "https://www.scu.edu"
     },
     {
-        "company": "Data Solutions Inc",
-        "role": "Data Science Intern",
-        "description": "Analyzed large datasets using Python and SQL. Created predictive models and data visualizations to support business decisions.",
-        "link": "https://datasolutions.com"
+        "company": "Matterport",
+        "role": "VR/AR Development Intern",
+        "description": "Collaborated with Dr. Lukoff and senior design team to create digital twin technology for university dorms using virtual reality. Implemented Matterport SDK with Javascript to develop 3D virtual tours. Presented project to Matterport Executive Board and established relationship between Matterport and SCU.",
+        "link": "https://www.matterport.com"
     }
 ] 

@@ -191,29 +191,60 @@ main {
 }
 
 .card {
-    background: #fff;
+    height: 100%;
+    min-height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
     border-radius: 12px;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid #e9ecef;
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-front,
+.card:hover .card-back {
     box-shadow: 0 8px 30px rgba(0,0,0,0.15);
 }
 
 .card h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
     color: #2c3e50;
+    text-transform: none;
 }
 
 .card p {
     color: #6c757d;
     margin-bottom: 15px;
     line-height: 1.6;
+    flex-grow: 1;
 }
 
 .card-link {
@@ -222,6 +253,7 @@ main {
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
+    margin-top: auto;
 }
 
 .card-link:hover {
@@ -230,7 +262,7 @@ main {
 
 .card-image {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 15px;

@@ -1,20 +1,38 @@
 [
     {
-        "name": "E-commerce Platform",
-        "description": "A full-stack e-commerce platform built with React and Node.js, featuring user authentication, payment processing, and admin dashboard.",
-        "link": "https://github.com/username/ecommerce-platform",
-        "image": "https://via.placeholder.com/400x200/3498db/ffffff?text=E-commerce+Platform"
+        "name": "Inrix Hackathon - 1st Place",
+        "description": "INRIX Hack is an annual school-wide competition with over 304 participants and 43 teams in 2023. My team constructed a web service that compares commercial real estate listings based on their relative price (per sqft/month) and relative traffic to that address using INRIX's data on trip endpoints. We learned about calling APIs (INRIX API, Google Maps API, Geocoding APIs), using web scrapers to find estate listing prices, and using Vue.js for the front end and Node.js for the backend.",
+        "link": "https://devpost.com/software/capital-insights",
+        "image": "data/images/inrix.jpg"
     },
     {
-        "name": "Weather App",
-        "description": "A responsive weather application that displays current weather and forecasts using OpenWeatherMap API.",
-        "link": "https://github.com/username/weather-app",
-        "image": "https://via.placeholder.com/400x200/2ecc71/ffffff?text=Weather+App"
+        "name": "Bronco Salt & Pepper Shakers",
+        "description": "For the SCU Maker Product Design Challenge, I designed hugging bronco salt & pepper shakers using SolidWorks CAD software and 3D printed 40 shakers in over 250 hours using Prusa and Ultimaker. I also helped my team laser cut acrylic sliders for the bottoms of the shakers so that the salt and pepper don't fall out. We marketed and sold out our shakers at the SCU Campus Bookstore, eventually winning $1500 for 2nd place in the 2023 competition.",
+        "link": "https://teamyellowrose.carrd.co/",
+        "image": "data/images/shakers.jpg"
     },
     {
-        "name": "Task Manager",
-        "description": "A collaborative task management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-        "link": "https://github.com/username/task-manager",
-        "image": "https://via.placeholder.com/400x200/e74c3c/ffffff?text=Task+Manager"
+        "name": "Portfolio in Space",
+        "description": "Inspired to make a more interactive portfolio, I challenged myself and used the Three JS library to showcase my projects. The theme of this alternate portfolio would be outerspace and at the center of the portfolio tour I animated the black 'Everything Bagel' from one of my favorite movies Everything Everywhere All At Once. I've thoroughly enjoyed constructing this one-of-a-kind portfolio and continue to add more fun details, such as a moon that rotates everytime the user scrolls.",
+        "link": "https://luke-ponssen.github.io/portfolio",
+        "image": "data/images/space.jpg"
+    },
+    {
+        "name": "React JS Website",
+        "description": "Making this website has challenged me to learn Javascript and CSS from scratch. Starting with the basic tutorial videos, I've quickly learned how to create buttons, navigate to different pages, create animations, outline the structure of various webpages, and style my website using gradients. I've enjoyed the intellectual creativity and freedom in being able to construct and design each aspect of this website, as well as add in unique features such as the automated typing on the homepage.",
+        "link": "https://luke-ponssen.github.io/my-website",
+        "image": "data/images/website.png"
+    },
+    {
+        "name": "Vanilla HTML Website",
+        "description": "After creating my first website, I went on to build more websites for myself, for friends, and for clients. This is one website that I built that I am particularly proud of. I coded mostly in HTML and CSS for this one, and I enjoyed the challenges that came with implementing a background with a transparent navigation bar, using Swiper JS to switch back and forth between reviews, and creating a booking form at the bottom of the website.",
+        "link": "https://luke-ponssen.github.io/consulting/#home",
+        "image": "data/images/vanilla.jpg"
+    },
+    {
+        "name": "Platformer Video Game",
+        "description": "Inspired by my favorite childhood video game, Super Mario Bros 2, I created a 2-dimensional platformer game using Java and Processing. I hard-coded the game fundamentals--gravity, player jumping and crouching, moving enemies, collectable coins, platform detection, collision detection, and map generation--and added some of my own unique designs, including a crouch-jump super power that lets you jump up to 2x your original max jump height.",
+        "link": "https://github.com/luke-ponssen/Platformer-Video-Game",
+        "image": "data/images/platformer.png"
     }
 ] 

@@ -111,11 +111,17 @@ function loadSampleData() {
 // Function to create project cards
 function createProjectCard(project) {
     return `
-        <div class="card">
-            ${project.image ? `<img src="${project.image}" alt="${project.name}" class="card-image">` : ''}
-            <h3>${project.name}</h3>
-            <p>${project.description}</p>
-            ${project.link ? `<a href="${project.link}" class="card-link" target="_blank" rel="noopener noreferrer">View Project →</a>` : ''}
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="card-inner">
+                <div class="card-front">
+                    ${project.image ? `<img src="${project.image}" alt="${project.name}" class="card-image">` : ''}
+                    <h3>${project.name}</h3>
+                </div>
+                <div class="card-back">
+                    <p>${project.description}</p>
+                    ${project.link ? `<a href="${project.link}" class="card-link" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">View Project →</a>` : ''}
+                </div>
+            </div>
         </div>
     `;
 }
@@ -123,11 +129,17 @@ function createProjectCard(project) {
 // Function to create internship cards
 function createInternshipCard(internship) {
     return `
-        <div class="card">
-            <h3>${internship.role}</h3>
-            <p><strong>${internship.company}</strong></p>
-            <p>${internship.description}</p>
-            ${internship.link ? `<a href="${internship.link}" class="card-link" target="_blank" rel="noopener noreferrer">Visit Company →</a>` : ''}
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>${internship.role}</h3>
+                    <p><strong>${internship.company}</strong></p>
+                </div>
+                <div class="card-back">
+                    <p>${internship.description}</p>
+                    ${internship.link ? `<a href="${internship.link}" class="card-link" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Visit Company →</a>` : ''}
+                </div>
+            </div>
         </div>
     `;
 }
@@ -135,11 +147,17 @@ function createInternshipCard(internship) {
 // Function to create research cards
 function createResearchCard(research) {
     return `
-        <div class="card">
-            ${research.image ? `<img src="${research.image}" alt="${research.title}" class="card-image">` : ''}
-            <h3>${research.title}</h3>
-            <p>${research.summary}</p>
-            ${research.link ? `<a href="${research.link}" class="card-link" target="_blank" rel="noopener noreferrer">Read Paper →</a>` : ''}
+        <div class="card" onclick="this.classList.toggle('flipped')">
+            <div class="card-inner">
+                <div class="card-front">
+                    ${research.image ? `<img src="${research.image}" alt="${research.title}" class="card-image">` : ''}
+                    <h3>${research.title}</h3>
+                </div>
+                <div class="card-back">
+                    <p>${research.summary}</p>
+                    ${research.link ? `<a href="${research.link}" class="card-link" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Read Paper →</a>` : ''}
+                </div>
+            </div>
         </div>
     `;
 }
