@@ -37,6 +37,16 @@ body {
     color: #2c3e50;
 }
 
+.nav-title-link {
+    text-decoration: none;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+}
+
+.nav-title-link:hover {
+    color: #3498db;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -75,6 +85,55 @@ main {
 
 .section {
     padding: 60px 0;
+}
+
+/* Profile Section */
+.profile-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    margin-bottom: 30px;
+}
+
+.profile-photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.profile-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.profile-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 600px;
+    opacity: 0.8;
 }
 
 .container {
@@ -179,6 +238,23 @@ main {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .profile-photo img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .profile-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .profile-title {
+        font-size: 1.1rem;
+    }
+
+    .profile-description {
+        font-size: 1rem;
+    }
+
     .section h2 {
         font-size: 2rem;
     }
@@ -204,6 +280,27 @@ main {
 
     .section {
         padding: 40px 0;
+    }
+
+    .profile-section {
+        padding: 60px 0;
+    }
+
+    .profile-photo img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .profile-info h1 {
+        font-size: 2rem;
+    }
+
+    .profile-title {
+        font-size: 1rem;
+    }
+
+    .profile-description {
+        font-size: 0.9rem;
     }
 
     .section h2 {

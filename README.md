@@ -1,9 +1,10 @@
 # Personal Portfolio Website
 
-A clean, responsive personal portfolio website built with HTML, CSS, and JavaScript. Features three main sections: Projects, Internships, and Research.
+A clean, responsive personal portfolio website built with HTML, CSS, and JavaScript. Features four main sections: Profile, Internships, Projects, and Research.
 
 ## Features
 
+- **Profile Section**: Large profile photo with name, title, and description
 - **Responsive Design**: Mobile-friendly layout that works on all devices
 - **Clean Navigation**: Simple navigation bar with smooth scrolling
 - **Dynamic Content**: Content loaded from JSON files for easy customization
@@ -18,6 +19,8 @@ website/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles
 ├── script.js           # JavaScript functionality
+├── profile-photo.png   # Your profile photo (replace with your image)
+├── favicon.png         # Round favicon (generated from profile photo)
 ├── data/
 │   ├── projects.json   # Projects data
 │   ├── internships.json # Internships data
@@ -26,6 +29,26 @@ website/
 ```
 
 ## Customization
+
+### Adding Your Profile Photo
+
+1. Replace `profile-photo.png` with your own profile photo
+2. Recommended size: 500x500 pixels or larger (square aspect ratio)
+3. The image will be automatically cropped to a circle and resized
+
+### Customizing Profile Information
+
+Edit the profile section in `index.html`:
+
+```html
+<div class="profile-info">
+    <h1>Your Name</h1>
+    <p class="profile-title">Your Title | Your Specialties</p>
+    <p class="profile-description">
+        Your personal description and introduction.
+    </p>
+</div>
+```
 
 ### Adding Your Projects
 
@@ -113,6 +136,7 @@ Edit `data/research.json` to add your research:
 
 ## Notes
 
+- Profile photo should be a square image for best results
 - Images are optional - if not provided, the card will display without an image
 - Links are optional - if not provided, no link button will be shown
 - The website uses placeholder images by default - replace with your actual images
